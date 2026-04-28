@@ -27,7 +27,7 @@ const itemSchema = new mongoose.Schema(
       default: "",
       trim: true,
     },
-    Warrentyperiod: {
+    Warrantyperiod: {
       type: String,
       default: "",
       trim: true,

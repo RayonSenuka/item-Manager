@@ -55,8 +55,8 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <label>Image URL</label>
       <input name="imageUrl" value={formData.imageUrl} onChange={handleChange} />
 
-      <label>Warrenty Period</label>
-      <input name="Warrentyperiod" value={formData.Warrentyperiodl} onChange={handleChange} required/>
+      <label>Warranty Period</label>
+      <input name="Warrantyperiod" value={formData.Warrantyperiodl} onChange={handleChange} required/>
 
       <button className="btn primary" type="submit">{submitText}</button>
     </form>
